@@ -7,5 +7,8 @@ body {
 }
 
 .container {
-  padding: 0 calc(50vw - 720px);
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 80px;
 }
