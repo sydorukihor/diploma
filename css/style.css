@@ -309,9 +309,7 @@ template {
 
 body {
   font-family: "Raleway", sans-serif;
-  line-height: 1.64;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  margin: 0;
 }
 
 .container {
@@ -487,14 +485,16 @@ body {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background: white;
   list-style: none;
-  padding: 10px;
+  padding: 15px 20px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
   flex-direction: column;
-  gap: 6px;
+  gap: 15px;
+  min-width: 235px;
 }
 .header__nav-submenu {
   position: relative;
